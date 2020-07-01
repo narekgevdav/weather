@@ -44,7 +44,7 @@ app.get('/help',(req,res)=>{
     })
 })
 
-app.get('/weather',(req,res)=>{g
+app.get('/weather',(req,res)=>{
      
     if(!req.query.address){
         return res.send({
